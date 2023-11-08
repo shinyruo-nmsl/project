@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "pack-2": "pnpm --filter pack-2 dev"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "lerna": "^7.4.2"
+  }
+}
