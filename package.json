@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "build": "pnpm --filter pack-2 build-only",
     "pack-2": "pnpm --filter pack-2 dev"
   },
   "dependencies": {

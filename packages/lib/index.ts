@@ -1,3 +1,3 @@
-const a = { bar: "1" };
+const a = { bar: "2" };
 
 export default a;

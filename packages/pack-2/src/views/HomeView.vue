@@ -1,5 +1,6 @@
-<script setup lang="ts">
+<script setup lang="ts" generic="T">
 import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
 <template>

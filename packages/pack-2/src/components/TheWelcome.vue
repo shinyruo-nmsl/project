@@ -1,10 +1,16 @@
 <script setup lang="ts">
+import { withDefaults } from 'vue'
+
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+
+withDefaults(defineProps<{bar:number}>(), {bar: 2})
+
+
 </script>
 
 <template>
